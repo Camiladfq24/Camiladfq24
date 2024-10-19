@@ -27,21 +27,56 @@ void q4() {
 int num = 0 
 printf("Digite um valor numérico inteiro: ");
 scanf("%d", &num);
-print("O valor digitando foi %d\n")
+print("O valor digitando foi %d \n");
 }
 
 //5. Faça um programa que leia dois números reais e os imprima.
-
+void q5() {
+int num = 0
+printf("digite dois numeros numeros reais: ");
+scanf("%d", &num);
+printf("os dois numeros digitados foram %d \n");
+}
 //6. Faça um programa que leia um número inteiro e imprima o seu
 //   antecessor e o seu sucessor.
+void q6() {
+Float n;
+pritnf("digite um numero: ");
+scanf("%f",&n);
+printf("antecessor: %f e sucessor: %f", n-1, n+1);
 
+}
 //7. Faça um programa que leia o nome o endereço e o telefone de
 //   um cliente e ao final, imprima esses dados.
-
+void q7() {
+float  nom[100], end[100], tel[100];
+printf("digite seu nome: ");
+scanf(" %s", nom);
+printf("digite seu endereço: ");
+scanf(" %s", end);
+printf("informe seu telefone:");
+scanf(" %s" tel);
+prinf("%s \n %s \n %s \n",nom ,end, tel);
+}
 //8. Faça um programa que leia dois números inteiros e imprima a
 //   subtração deles.
-
+void q8() {
+int subtracao, num1, num2;
+printf("digite o priemeiro numero: ";
+scanf("%d" , &num1);
+printf("digite o segundo numero: ");
+scanf("%d" , &num2);
+subtracao = num1 - num2;
+print("resultado sa subtracao: %d", subtracao);
+}
 //9. Faça um programa que leia umnúmero real e imprima ¼ deste número.
+void q8() {
+float n, resultado;
+printf("digite um numero: ");
+scanf("%f", &n);
+resultado = n/4
+printf("resultado: %f", resultado);
+}
 
 //10. Faça um programa que leia três números reais e calcule a
 //    média aritmética destes números. Ao final, o programa deve
@@ -102,6 +137,6 @@ print("O valor digitando foi %d\n")
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q3();
+    q6();
     return EXIT_SUCCESS;
 }

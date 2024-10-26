@@ -70,7 +70,7 @@ subtracao = num1 - num2;
 print("resultado sa subtracao: %d", subtracao);
 }
 //9. Faça um programa que leia umnúmero real e imprima ¼ deste número.
-void q8() {
+void q9() {
 float n, resultado;
 printf("digite um numero: ");
 scanf("%f", &n);
@@ -81,25 +81,84 @@ printf("resultado: %f", resultado);
 //10. Faça um programa que leia três números reais e calcule a
 //    média aritmética destes números. Ao final, o programa deve
 //    imprimir o resultado do cálculo.
-
+Void q10() {
+float media, n1, n2, n3
+printf("digite o numero 1: ");
+scanf("%f", &n1);
+prinf("digite o numero 2: ")
+scanf("%f", &n2);
+pritnf("digite numero 3: ")
+media = (n1+n2+n3) / 3
+printf("media: %f", media);
+}
 //11. Faça um programa que leia dois números reais e calcule as
 //    quatro operações básicas entre estes dois números, adição,
 //    subtração,multiplicação e divisão. Ao final, o programa
 //    deve imprimir os resultados dos cálculos.
 
+void q11() {
+float n1, n2, soma, subtração, multi, divisao
+prinf("digite o numero 1");
+scanf("%f", &n1);
+printf("Digite numero 2");
+scanf("%f" &n2);
+soma = n1 + n2;
+prinf("soma: %f", soma);
+subtracao = n1 - n2;
+scanf("subtracao: %f", subtracao);
+multi: n1 * n2;
+scanf("multi: %f", multiplicação);
+divisao = n1 / n2;
+scanf("divisao: %f", divisao)
+}
+
 //12. Faça um programa que leia um número real e calcule o
 //    quadrado deste número. Ao final, o programa deve
 //    imprimir o resultado do cálculo.
-
+void q12() {
+float num, calculo
+printf("digite um numero: ");
+scanf("%f", num):
+calculo = num * num 
+scanf("calculo: %f", calculo):
+}
 //13. Faça um programa que leia o saldo de uma conta poupança e
 //    imprima o novo saldo, considerando um reajuste de 2%.
-
+void q13() {
+float saldo, saldonv
+printf("informe o seu saldo bancario");
+scanf("%f", saldo);
+saldonv = saldo + saldo * 0,2
+scanf("saldonv: %f", saldo novo);
+}
 //14. Faça um programa que leia a base e a altura de um retângulo
 //    e imprima o perímetro (base*2 + altura*2) e a área (base * altura).
-
+void q14() {
+float base, altura, perimetro, area;
+printf("digite a base:");
+scanf("%f", base);
+prinf("digite a altura: ");
+scanf("%f" altura);
+perimetro = base * 2 + altura * 2;
+scanf("perimetro: %f", perimetro);
+area = base * altrua;
+scanf("area: %f", area);
+}
 //15. Faça um programa que leia o valor de um produto, o percentual
 //    do desconto desejado e imprima o valor do desconto e o valor
 //    do produto subtraindo o desconto.
+void q15() {
+float vlrprod, porcen, vlrnv;
+
+pordesc = vlrprod - (descdesj * (porcen / 100));
+
+
+
+
+}
+
+
+
 
 //16. Faça um programa que calcule o reajuste do salário de um
 //    funcionário. Para isso, o programa deverá ler o salário atual
